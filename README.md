@@ -4,7 +4,7 @@ https://my-portfolio-472b0.web.app/
 
 # NPM Packages
 npm install react-router-dom
-
+npm install react-icons --save
 
 
 
