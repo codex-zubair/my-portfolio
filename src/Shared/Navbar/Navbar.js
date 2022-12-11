@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
-            <NavLink>Home</NavLink>
-            <NavLink>About</NavLink>
-            <NavLink>Resume</NavLink>
-            <NavLink>Works</NavLink>
-            <NavLink>Testimonials</NavLink>
-            <NavLink>Contact</NavLink>
-            <NavLink>Blogs</NavLink>
-        </div>
+        <nav className='bg-slate-400 text-center'>
+            <NavLink className="mx-2">Home</NavLink>
+            <NavLink className="mx-2">About</NavLink>
+            <NavLink className="mx-2">Resume</NavLink>
+            <NavLink className="mx-2">Works</NavLink>
+            <NavLink className="mx-2">Testimonials</NavLink>
+            <NavLink className="mx-2">Contact</NavLink>
+            <NavLink className="mx-2">Blogs</NavLink>
+        </nav>
     );
 };
 
