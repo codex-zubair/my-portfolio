@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaDownload, FaStar } from 'react-icons/fa';
 
@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
 
-    const Menu = <div className='flex gap-2'>
+    const Menu = <div className='flex flex-col lg:flex-row gap-2'>
         <li><NavLink to='/' className="mx-2">Home</NavLink></li>
         <li><NavLink to='/about' className="mx-2">About</NavLink></li>
         <li><NavLink to='/resume' className="mx-2">Resume</NavLink></li>
@@ -36,7 +36,7 @@ const Navbar = () => {
                             {Menu}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl flex gap-1">Zubair's<FaStar></FaStar></a>
+                    <a className="hidden lg:block btn btn-ghost normal-case text-xl flex gap-1">Zubair's<FaStar></FaStar></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
