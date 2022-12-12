@@ -36,7 +36,7 @@ const Navbar = () => {
                             {Menu}
                         </ul>
                     </div>
-                    <a className="hidden lg:block btn btn-ghost normal-case text-xl flex gap-1">Zubair's<FaStar></FaStar></a>
+                    <a className="hidden lg:flex btn btn-ghost normal-case text-xl flex gap-1">Zubair's<FaStar></FaStar></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
