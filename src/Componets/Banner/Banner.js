@@ -11,7 +11,7 @@ const Banner = () => {
 
 
             <div className='flex gap-5'>
-                <a href="https://www.linkedin.com/in/zubayeralaam/" target="_blank" ><FaLinkedin className='text-3xl' /></a>
+                <a href="https://www.linkedin.com/in/zubayeralaam/" target="_blank" ><FaLinkedin className='text-3xl'/></a>
                 <a href='https://github.com/codingwithrock' target="_blank"><FaGithub className='text-3xl' /></a>
                 <a href='https://www.facebook.com/Zubayeralaam/' target="_blank"><FaFacebook className='text-3xl' /></a>
             </div>
