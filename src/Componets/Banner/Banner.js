@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
@@ -11,7 +11,9 @@ const Banner = () => {
 
 
             <div className='flex gap-5'>
-                <a href="https://www.linkedin.com/in/zubayeralaam/" target="_blank" ><FaLinkedin className='text-3xl'/></a>
+                <a href="https://www.linkedin.com/in/zubayeralaam/" target="_blank" ><FaLinkedin className='text-3xl' /></a>
+
+                <a href="https://wa.me/+8801622559988" target="_blank" ><FaWhatsapp className='text-3xl' /></a>
                 <a href='https://github.com/codingwithrock' target="_blank"><FaGithub className='text-3xl' /></a>
                 <a href='https://www.facebook.com/Zubayeralaam/' target="_blank"><FaFacebook className='text-3xl' /></a>
             </div>
