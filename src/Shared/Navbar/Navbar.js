@@ -15,7 +15,6 @@ const Navbar = () => {
         <li><NavLink to='/resume' className="mx-2">Resume</NavLink></li>
         <li><NavLink to="/works" className="mx-2">Works</NavLink></li>
         <li><NavLink to='/testimonials' className="mx-2">Testimonials</NavLink></li>
-        <li><NavLink to='/contact' className="mx-2">Contact</NavLink></li>
         <li><NavLink to='/blogs' className="mx-2">Blogs</NavLink></li>
     </div>
 

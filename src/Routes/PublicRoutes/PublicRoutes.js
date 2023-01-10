@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main/Main";
 import About from "../../Pages/About/About";
 import Blogs from "../../Pages/Blogs/Blogs";
-import Contact from "../../Pages/Contact/Contact";
 import Home from "../../Pages/Home/Home";
 import Resume from "../../Pages/Resume/Resume";
 import Testimonials from "../../Pages/Testimonials/Testimonials";
@@ -35,10 +34,6 @@ export const route = createBrowserRouter([
                 path:"/testimonials", element:<Testimonials></Testimonials>
             },
             
-
-            {
-                path:'/contact', element: <Contact></Contact>
-            },
 
             {
                 path:'/blogs', element: <Blogs></Blogs>
