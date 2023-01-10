@@ -4,9 +4,6 @@ import ProjectCard from '../../Componets/ProjectCard/ProjectCard';
 const Home = () => {
 
 
-
-
-
     return (
         <div className='flex flex-col items-center'>
 
@@ -14,7 +11,7 @@ const Home = () => {
 
 
             <div className='mt-5 flex flex-col items-center gap-5'>
-                <h2 className='text-center text-white uppercase text-4xl underline'>Project-Showcase</h2>
+                <h2 className='text-center text-white uppercase lg:text-4xl text-2xl underline'>Project-Showcase</h2>
             </div>
 
 

@@ -21,7 +21,7 @@ const Banner = () => {
             <div>
                 <p className='lg:text-xl my-2 text-center font-serif max-w-4xl font-semibold typing-demo'>React Developer</p>
             </div>
-            <p className='lg:text-xl my-6 text-center font-serif max-w-4xl font-semibold'>Hi! I am a React developer. I am also proficient at backend development, but I enjoy working with React more on the front end of a project.
+            <p className='lg:text-xl my-6 text-center font-serif max-w-4xl mx-12 lg:mx-auto   font-semibold'>Hi! I am a React developer. I am also proficient at backend development, but I enjoy working with React more on the front end of a project.
                 i have good understanding of error handling and fast acclimatization to new technology. Clean, efficient work is what I love to do...
                 <NavLink to={'/about'}>  more details</NavLink></p>
 
