@@ -1,17 +1,20 @@
-import React from 'react';
-import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp  } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp , FaBox} from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import '../Banner/Banner.css';
 import { useForm, ValidationError } from '@formspree/react';
 
 
 const Banner = () => {
+    const [open, setOpen] = useState(false);
 
     const [state, handleSubmit] = useForm("mvonoypy");
     if (state.succeeded) {
         return <p className=' text-center font-serif max-w-4xl lg:text-5xl text-white my-14'>Thanks! I'll be in touch with you soon.</p>;
     }
 
+
+    // state for mail box
 
 
 
@@ -35,14 +38,12 @@ const Banner = () => {
                 <a href='https://github.com/codingwithrock' target="_blank"><FaGithub className='text-3xl hover:text-sky-600' /></a>
                 <a href='https://www.facebook.com/Zubayeralaam/' target="_blank"><FaFacebook className='text-3xl hover:text-sky-600' /></a>
             </div>
-
+            <button onClick={() => setOpen(!open)} className='uppercase my-2 btn-sm rounded-none btn'>Mail Box</button>
             <div>
-                <form className='flex flex-col mt-5' onSubmit={handleSubmit}>
-                    <label htmlFor="email" className=' font-mono text-center uppercase'>
-                        Mail box
-                    </label>
+                {open? <form className='flex flex-col mt-5' onSubmit={handleSubmit}>
+                    
                     <input className='border text-black'
-                        
+
                         id="email"
                         type="email"
                         name="email"
@@ -66,7 +67,7 @@ const Banner = () => {
                     <button className='btn border-white' type="submit" disabled={state.submitting}>
                         Send
                     </button>
-                </form>
+                </form>:<></>}
             </div>
 
         </section>
