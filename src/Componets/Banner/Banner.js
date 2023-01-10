@@ -16,19 +16,19 @@ const Banner = () => {
 
 
     return (
-        <section className='mx-2 lg:mx-20 my-10 lg:my-36 flex items-center flex-col text-white'>
-            <h1 className='text-2xl justify-center lg:text-5xl font-serif font-semibold'>N.M. Zubair Alam.</h1>
+        <section className='mx-2 lg:mx-20 mt-7 lg:my-20  flex w-auto items-center flex-col text-white'>
+            <h1 className='text-2xl justify-center lg:text-6xl font-serif font-semibold'>N.M. Zubair Alam.</h1>
             <div>
-                <p className='lg:text-xl my-2 text-center font-serif max-w-4xl font-semibold typing-demo'>React Developer</p>
+                <p className='lg:text-2xl my-3 text-center font-serif max-w-4xl font-semibold'>React Developer</p>
             </div>
-            <p className='lg:text-xl my-6 text-center font-serif max-w-4xl mx-12 lg:mx-auto   font-semibold'>Hi! I am a React developer. I am also proficient at backend development, but I enjoy working with React more on the front end of a project.
+            <p className='lg:text-xl  lg:my-7 text-center font-serif max-w-7xl  w-11/12 mx-auto lg:mx-auto   font-semibold'>Hi! I am a React developer. I am also proficient at backend development, but I enjoy working with React more on the front end of a project.
                 i have good understanding of error handling and fast acclimatization to new technology. Clean, efficient work is what I love to do...
                 <NavLink to={'/about'}>  more details</NavLink></p>
 
 
 
 
-            <div className='flex gap-5'>
+            <div className='flex gap-5 m-2'>
                 <a href="https://www.linkedin.com/in/zubayeralaam/" target="_blank" ><FaLinkedin className='text-3xl hover:text-sky-600' /></a>
 
                 <a href="https://wa.me/+8801622559988" target="_blank" ><FaWhatsapp className='text-3xl hover:text-sky-600' /></a>
@@ -63,7 +63,7 @@ const Banner = () => {
                         field="message"
                         errors={state.errors}
                     />
-                    <button className='btn' type="submit" disabled={state.submitting}>
+                    <button className='btn border-white' type="submit" disabled={state.submitting}>
                         Send
                     </button>
                 </form>

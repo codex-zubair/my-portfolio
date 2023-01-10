@@ -1,4 +1,9 @@
 
+*{
+    margin: 0px 0px 0xp 0xp;
+}
+
+
 .typing-demo {
     animation: animated-text 2s steps(12, end) 1s 1 normal both;
     white-space: nowrap;

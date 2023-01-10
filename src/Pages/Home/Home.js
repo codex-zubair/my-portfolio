@@ -10,12 +10,12 @@ const Home = () => {
             <Banner></Banner>
 
 
-            <div className='mt-5 flex flex-col items-center gap-5'>
+            <div className='mt-5 flex flex-col items-center  gap-5'>
                 <h2 className='text-center text-white uppercase lg:text-4xl text-2xl underline'>Project-Showcase</h2>
             </div>
 
 
-            <div className='my-5 w-11/12 flex flex-wrap items-center justify-center mx-auto'>
+            <div className='my-5 w-11/12 lg:mt-10 flex flex-wrap items-center justify-center mx-auto'>
                 <ProjectCard></ProjectCard>
             </div>
         </div>
